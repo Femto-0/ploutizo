@@ -1,0 +1,14 @@
+22/07/2025
+Application Name: SmartConvert
+
+Issue to fix:
+	- Solve the tedious task of having to convert data from multiple sources(vendors) into a format that's accepted by PipeDrive manually. 
+
+Requirements: 
+	- <none So far> 
+
+Proposed solution: 
+	- Write a python script that can take input of different format and convert it into a easy to read CSV.
+
+Progress so far: 
+	22/07: Got information on what issue needs to be fixed. 
