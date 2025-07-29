@@ -2,9 +2,9 @@ import json
 import pandas as pd
 
 
-def cleanData(data):
+def cleanData(data, imageId):
     # Save raw data to JSON file for inspection/debugging
-    with open("enrichedData/enrichedData.json", 'w') as f:
+    with open(f"enrichedData/{imageId}enrichedData.json", 'w') as f:
         json.dump(data, f, indent=4)
 
     # Check if data is a list
@@ -21,5 +21,6 @@ def cleanData(data):
 
     # Create DataFrame and save to Excel
     dataFrame = pd.DataFrame(cleaned_data)
-    dataFrame.to_excel("enrichedData/enriched_data.xlsx", index=False)
-    print("Data saved to enriched_data.xlsx")
+    dataFrame.to_excel(
+        f"enrichedData/{imageId}_enriched_data.xlsx", index=False)
+    print(f"Data saved to {imageId}_enriched_data.xlsx")
