@@ -12,3 +12,7 @@ Proposed solution:
 
 Progress so far: 
 	22/07: Got information on what issue needs to be fixed. 
+	29/07: Presented a live demo of the program and got feedbacks. 
+		Feedbacks: 
+		1. Trim out the info that we don't need such as employement id's, etc. 
+		2. Work on writing the output to an excel file. 
