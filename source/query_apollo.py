@@ -1,12 +1,10 @@
 import os
 import requests
-import json
-import pandas as pd
 
 
 def query_apollo(people_list):
     apiKey = os.environ.get('APOLLO_API')
-    print(apiKey)
+    # print(apiKey)
     if not apiKey:
         raise ValueError("Missing apollo api key")
     else:
@@ -14,7 +12,7 @@ def query_apollo(people_list):
         payload = {
             'details': people_list
         }
-        print(json.dumps(payload, indent=2))
+        # print(json.dumps(payload, indent=2))
 
         headers = {
             "accept": "application/json",
