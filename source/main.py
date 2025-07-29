@@ -6,10 +6,12 @@ model = "llama3.2"
 
 
 def main():
-    imageInfo = pi.extract_text_from_image('images/annotatedTestPic.PNG')
+    image = 'IMG_5296'
+    imageInfo = pi.extract_text_from_image('images/'+image+'.PNG')
+    print(imageInfo)
     ollama_response = qo.query_ollama(imageInfo, model)
     data = qa.query_apollo(ollama_response)
-    ced.cleanData(data)
+    ced.cleanData(data, image)
 
 
 if __name__ == "__main__":
