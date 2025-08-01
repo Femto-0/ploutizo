@@ -4,7 +4,7 @@ import pandas as pd
 
 def cleanData(data, imageId):
     # Save raw data to JSON file for inspection/debugging
-    with open(f"enrichedData/{imageId}enrichedData.json", 'w') as f:
+    with open(f"enrichedData/{imageId}_enrichedData.json", 'w') as f:
         json.dump(data, f, indent=4)
 
     # Check if data is a list
