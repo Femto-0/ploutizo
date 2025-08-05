@@ -1,0 +1,93 @@
+[
+    {
+        "first_name": "Deep",
+        "last_name": "Chakraborty",
+        "linkedin_url": "http://www.linkedin.com/in/deepchakraborty",
+        "title": "CEO and Co-Founder",
+        "email": "deep@enact-systems.com",
+        "employment_history": [
+            {
+                "organization_name": "ENACT SYSTEMS INC",
+                "title": "CEO and Co-Founder"
+            }
+        ]
+    },
+    {
+        "first_name": "Danielle",
+        "last_name": "Danko",
+        "linkedin_url": "http://www.linkedin.com/in/danielle-e-danko",
+        "title": "Vice President Marketing",
+        "email": "ddanko@sets.solar",
+        "employment_history": [
+            {
+                "organization_name": "RE+ Events",
+                "title": "Vice President Marketing"
+            }
+        ]
+    },
+    {
+        "first_name": "Amir",
+        "last_name": "Yazdi",
+        "linkedin_url": "http://www.linkedin.com/in/amir-yazdi-74508029",
+        "title": "Deputy General Counsel",
+        "email": "ayazdi@seia.org",
+        "employment_history": [
+            {
+                "organization_name": "Solar Energy Industries Association",
+                "title": "Deputy General Counsel"
+            }
+        ]
+    },
+    {
+        "first_name": "Evelyn",
+        "last_name": "Butler",
+        "linkedin_url": "http://www.linkedin.com/in/evelynbutler",
+        "title": "Vice President, Technical Services",
+        "email": "ebutler@seia.org",
+        "employment_history": [
+            {
+                "organization_name": "Solar Energy Industries Association",
+                "title": "Vice President, Technical Services"
+            }
+        ]
+    },
+    {
+        "first_name": "Christopher",
+        "last_name": "Leinweber",
+        "linkedin_url": "http://www.linkedin.com/in/chris-leinweber",
+        "title": "National Sales Manager",
+        "email": "cleinweber@energyscaperenewables.com",
+        "employment_history": [
+            {
+                "organization_name": "EnergyScape Renewables",
+                "title": "National Sales Manager"
+            }
+        ]
+    },
+    {
+        "first_name": "Matthew",
+        "last_name": "Punch",
+        "linkedin_url": "http://www.linkedin.com/in/matthew-punch-0409493b",
+        "title": "Renewable Energy and EV Infrastructure Developer - Civil | EPC | Operations & Maintenance",
+        "email": "matthew.punch@davey.com",
+        "employment_history": [
+            {
+                "organization_name": "Davey Resource Group, Inc.",
+                "title": "Renewable Energy and EV Infrastructure Developer - Civil | EPC | Operations & Maintenance"
+            }
+        ]
+    },
+    {
+        "first_name": "Kalon",
+        "last_name": "Breckenridge",
+        "linkedin_url": "http://www.linkedin.com/in/kalon-breckenridge-98a90a45",
+        "title": "Client Solution Specialist, Spruce PRO",
+        "email": "kbreckenridge@sprucepower.com",
+        "employment_history": [
+            {
+                "organization_name": "Spruce Power",
+                "title": "Client Solution Specialist, Spruce PRO"
+            }
+        ]
+    }
+]

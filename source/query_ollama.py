@@ -21,7 +21,7 @@ Respond only with the JSON containing the response.
     if response.status_code == 200:
         data = response.json()['response']
         parsed_data = json.loads(data)
-        print(parsed_data)
+        # print(parsed_data)
         return parsed_data
     else:
         print("faulty req to" + model)

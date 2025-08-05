@@ -6,9 +6,9 @@ model = "llama3.2"
 
 
 def main():
-    image = 'IMG_5296'
+    # write the name of your image here without the extension. For example: linkedInImage, image fromGoogle, etc.
+    image = 'IMG_5293'
     imageInfo = pi.extract_text_from_image('images/'+image+'.PNG')
-    print(imageInfo)
     ollama_response = qo.query_ollama(imageInfo, model)
     data = qa.query_apollo(ollama_response)
     ced.cleanData(data, image)

@@ -1,5 +1,6 @@
 import os
 import requests
+import json
 
 
 def query_apollo(people_list):
@@ -22,7 +23,7 @@ def query_apollo(people_list):
         }
         response = requests.post(url, json=payload, headers=headers)
         if (response.status_code == 200):
-            data = response.json()['matches']
+            data = response.json().get('matches',[])
             return data
         else:
             print(f"Error code: {response.status_code}")
