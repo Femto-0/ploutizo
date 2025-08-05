@@ -21,15 +21,15 @@ Clone the Femto-0/ploutizo repo to your computer
      - To set an env variable: add `export APOLLO_API=<yourAPIkey>` to either your `.bashrc` or `.zshrc`, whichever you are using.
     
   2. To make sure that Ollama was installed, run `ollama` and see if you get a bunch of commands listed.
-     - If yes, Ollma was installed successfully. Now, run `ollama run llama`, wait until you see the model is downloaded. After the model is downloaded, we have two options:
-       a. Leave it running in the background. This is suggested if you plan on enriching a lot of data since it improves the script's speed by few seconds.
-       b. If you aren't going to be using Ploutizo actively, you can stop running the model. Run `ollama stop llama` to do so. To make sure, run `ollama ps` and see if any model is listed.
+     - If yes, Ollma was installed successfully. Now, run `ollama run llama`, wait until you see the model is downloaded. After the model is downloaded, we have two options:<br>
+       - Leave it running in the background. This is suggested if you plan on enriching a lot of data since it improves the script's speed by few seconds.<br>
+       - If you aren't going to be using Ploutizo actively, you can stop running the model. Run `ollama stop llama` to do so. To make sure, run `ollama ps` and see if any model is listed.<br>
        
-  3. Plutizo also makes use of python virtual environment:
-     - To enable virtual environment for plutizo directory.
-       i. go to `plutizo` directory.
-       ii. run `python3 -m venv .venv` to initialize the virtual environment for this directory.
-       iii. run `source .venv/bin/activate` to activate the virtual envrionment.
+  3. Ploutizo also makes use of python virtual environment:
+     - To enable virtual environment for ploutizo directory.<br>
+       i. go to `ploutizo` directory.<br>
+       ii. run `python3 -m venv .venv` to initialize the virtual environment for this directory.<br>
+       iii. run `source .venv/bin/activate` to activate the virtual envrionment.<br>
 
   4. Installing all the required libraries to run the script
      - A requirements.txt files is procvided.
@@ -38,13 +38,13 @@ Clone the Femto-0/ploutizo repo to your computer
   5. Running the script:
      - As of version 1.0.0:
        i. Users need to assign the name of the image file manually to `image` variable in [main.py](https://github.com/Femto-0/ploutizo/blob/master/source/main.py) everytime they want to run the script for an image.
-       ii. Make sure your image file is a ".PNG" image file.
+       ii. Make sure your image file type is `".PNG"`.
        iii. Make sure your image is inside the `images` folder. `images` folder can be found in `ploutizo/source/`
        iv. After all the requirements are met, go to the `source` folder and run `python3 main.py`.
        
   6. Output:
-     - As of version 1.0.0:
-       i. A `json` and a `xlsx` file is created as ouput and placed in the `enrochedData` folder. `enrichedData` folder can be found in `ploutizo/source/`.
+     - As of version 1.0.0:<br>
+       - A `json` and a `xlsx` file is created as ouput and placed in the `enrochedData` folder. `enrichedData` folder can be found in `ploutizo/source/`.
 
 ## Issues: 
 
