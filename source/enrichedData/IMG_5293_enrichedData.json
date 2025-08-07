@@ -8,7 +8,9 @@
         "employment_history": [
             {
                 "organization_name": "ENACT SYSTEMS INC",
-                "title": "CEO and Co-Founder"
+                "most_recent_title": "CEO and Co-Founder",
+                "last_job": "Centrosolar America, Inc.",
+                "last_job_title": "Co-Founder, President and CEO/Managing Director"
             }
         ]
     },
@@ -21,7 +23,9 @@
         "employment_history": [
             {
                 "organization_name": "RE+ Events",
-                "title": "Vice President Marketing"
+                "most_recent_title": "Vice President Marketing",
+                "last_job": "RE+ Events",
+                "last_job_title": "Senior Director Of Marketing"
             }
         ]
     },
@@ -34,7 +38,9 @@
         "employment_history": [
             {
                 "organization_name": "Solar Energy Industries Association",
-                "title": "Deputy General Counsel"
+                "most_recent_title": "Deputy General Counsel",
+                "last_job": "Solar Energy Industries Association",
+                "last_job_title": "Assistant General Counsel"
             }
         ]
     },
@@ -47,7 +53,9 @@
         "employment_history": [
             {
                 "organization_name": "Solar Energy Industries Association",
-                "title": "Vice President, Technical Services"
+                "most_recent_title": "Vice President, Technical Services",
+                "last_job": "SolarAPP+",
+                "last_job_title": "Board of Directors, Treasurer"
             }
         ]
     },
@@ -60,7 +68,9 @@
         "employment_history": [
             {
                 "organization_name": "EnergyScape Renewables",
-                "title": "National Sales Manager"
+                "most_recent_title": "National Sales Manager",
+                "last_job": "Mission Solar",
+                "last_job_title": "Southern Sales Manager"
             }
         ]
     },
@@ -73,7 +83,9 @@
         "employment_history": [
             {
                 "organization_name": "Davey Resource Group, Inc.",
-                "title": "Renewable Energy and EV Infrastructure Developer - Civil | EPC | Operations & Maintenance"
+                "most_recent_title": "Renewable Energy and EV Infrastructure Developer - Civil | EPC | Operations & Maintenance",
+                "last_job": "SC Solar Council",
+                "last_job_title": "Vice Chairman of the Board"
             }
         ]
     },
@@ -86,7 +98,9 @@
         "employment_history": [
             {
                 "organization_name": "Spruce Power",
-                "title": "Client Solution Specialist, Spruce PRO"
+                "most_recent_title": "Client Solution Specialist, Spruce PRO",
+                "last_job": "Integrity Solar KC",
+                "last_job_title": "Director of Business Development"
             }
         ]
     }

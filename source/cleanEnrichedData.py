@@ -9,7 +9,7 @@ def extract_relevant_data(raw_data):
     for item in raw_data:
         if not isinstance(item, dict):
             continue
-        
+
         first_name = item.get("first_name")
         last_name = item.get("last_name")
         linkedin_url = item.get("linkedin_url")
@@ -19,9 +19,12 @@ def extract_relevant_data(raw_data):
         employment_history = item.get("employment_history", [])
         if employment_history:
             most_recent_job = employment_history[0]
+            last_job = employment_history[1]
             job_info = {
                 "organization_name": most_recent_job.get("organization_name"),
-                "title": most_recent_job.get("title")
+                "most_recent_title": most_recent_job.get("title"),
+                "last_job": last_job.get("organization_name"),
+                "last_job_title": last_job.get("title")
             }
             filtered_employment_history = [job_info]
         else:
@@ -43,9 +46,9 @@ def extract_relevant_data(raw_data):
 
 def cleanData(raw_data, imageId):
     # to make sure that raw_data I am supplying is a dict and not a list
-    print(f"raw data type: {type(raw_data)}")
+    # print(f"raw data type: {type(raw_data)}")
+    # print(raw_data)
     # Save raw data to JSON file for inspection/debugging
     data = extract_relevant_data(raw_data)
-    print(data)
     with open(f"enrichedData/{imageId}_enrichedData.json", 'w') as f:
         json.dump(data, f, indent=4)
