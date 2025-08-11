@@ -3,105 +3,70 @@
         "first_name": "Deep",
         "last_name": "Chakraborty",
         "linkedin_url": "http://www.linkedin.com/in/deepchakraborty",
+        "organization_name": "ENACT SYSTEMS INC",
         "title": "CEO and Co-Founder",
         "email": "deep@enact-systems.com",
-        "employment_history": [
-            {
-                "organization_name": "ENACT SYSTEMS INC",
-                "most_recent_title": "CEO and Co-Founder",
-                "last_job": "Centrosolar America, Inc.",
-                "last_job_title": "Co-Founder, President and CEO/Managing Director"
-            }
-        ]
+        "last_job": "Centrosolar America, Inc.",
+        "last_job_title": "Co-Founder, President and CEO/Managing Director"
     },
     {
         "first_name": "Danielle",
         "last_name": "Danko",
-        "linkedin_url": "http://www.linkedin.com/in/danielle-e-danko",
+        "linkedin_url": "http://www.linkedin.com/in/danielle-danko-bb42a39",
+        "organization_name": "RE+ Events",
         "title": "Vice President Marketing",
         "email": "ddanko@sets.solar",
-        "employment_history": [
-            {
-                "organization_name": "RE+ Events",
-                "most_recent_title": "Vice President Marketing",
-                "last_job": "RE+ Events",
-                "last_job_title": "Senior Director Of Marketing"
-            }
-        ]
+        "last_job": "RE+ Events",
+        "last_job_title": "Senior Director Of Marketing"
     },
     {
         "first_name": "Amir",
         "last_name": "Yazdi",
         "linkedin_url": "http://www.linkedin.com/in/amir-yazdi-74508029",
+        "organization_name": "Solar Energy Industries Association",
         "title": "Deputy General Counsel",
         "email": "ayazdi@seia.org",
-        "employment_history": [
-            {
-                "organization_name": "Solar Energy Industries Association",
-                "most_recent_title": "Deputy General Counsel",
-                "last_job": "Solar Energy Industries Association",
-                "last_job_title": "Assistant General Counsel"
-            }
-        ]
+        "last_job": "Solar Energy Industries Association",
+        "last_job_title": "Assistant General Counsel"
     },
     {
         "first_name": "Evelyn",
         "last_name": "Butler",
         "linkedin_url": "http://www.linkedin.com/in/evelynbutler",
+        "organization_name": "Solar Energy Industries Association",
         "title": "Vice President, Technical Services",
         "email": "ebutler@seia.org",
-        "employment_history": [
-            {
-                "organization_name": "Solar Energy Industries Association",
-                "most_recent_title": "Vice President, Technical Services",
-                "last_job": "SolarAPP+",
-                "last_job_title": "Board of Directors, Treasurer"
-            }
-        ]
+        "last_job": "SolarAPP+",
+        "last_job_title": "Board of Directors, Treasurer"
     },
     {
         "first_name": "Christopher",
         "last_name": "Leinweber",
-        "linkedin_url": "http://www.linkedin.com/in/chris-leinweber",
+        "linkedin_url": "http://www.linkedin.com/in/christopher-leinweber-284397a2",
+        "organization_name": "EnergyScape Renewables",
         "title": "National Sales Manager",
         "email": "cleinweber@energyscaperenewables.com",
-        "employment_history": [
-            {
-                "organization_name": "EnergyScape Renewables",
-                "most_recent_title": "National Sales Manager",
-                "last_job": "Mission Solar",
-                "last_job_title": "Southern Sales Manager"
-            }
-        ]
+        "last_job": "Mission Solar",
+        "last_job_title": "Southern Sales Manager"
     },
     {
         "first_name": "Matthew",
         "last_name": "Punch",
         "linkedin_url": "http://www.linkedin.com/in/matthew-punch-0409493b",
+        "organization_name": "Davey Resource Group, Inc.",
         "title": "Renewable Energy and EV Infrastructure Developer - Civil | EPC | Operations & Maintenance",
         "email": "matthew.punch@davey.com",
-        "employment_history": [
-            {
-                "organization_name": "Davey Resource Group, Inc.",
-                "most_recent_title": "Renewable Energy and EV Infrastructure Developer - Civil | EPC | Operations & Maintenance",
-                "last_job": "SC Solar Council",
-                "last_job_title": "Vice Chairman of the Board"
-            }
-        ]
+        "last_job": "SC Solar Council",
+        "last_job_title": "Vice Chairman of the Board"
     },
     {
         "first_name": "Kalon",
         "last_name": "Breckenridge",
         "linkedin_url": "http://www.linkedin.com/in/kalon-breckenridge-98a90a45",
+        "organization_name": "Spruce Power",
         "title": "Client Solution Specialist, Spruce PRO",
         "email": "kbreckenridge@sprucepower.com",
-        "employment_history": [
-            {
-                "organization_name": "Spruce Power",
-                "most_recent_title": "Client Solution Specialist, Spruce PRO",
-                "last_job": "Integrity Solar KC",
-                "last_job_title": "Director of Business Development"
-            }
-        ]
+        "last_job": "Integrity Solar KC",
+        "last_job_title": "Director of Business Development"
     }
 ]
