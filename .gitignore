@@ -190,8 +190,9 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,python
 
-ploutizo/source/enrichedData
-ploutizo/meetings.txt
-ploutizo/projectProgress.txt
-
+source/enrichedData
+meetings.txt
+projectProgress.txt
+source/images
+        
 
