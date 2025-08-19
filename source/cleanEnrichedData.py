@@ -69,10 +69,10 @@ def cleanData(processed_data, imageId):
             'last_job_title'])
     file_name = f"{imageId}"
     data_frame_reindexed_cols.to_excel(
-        f"enrichedData/{file_name}.xlsx", index=False)
+        f"enrichedData/xlsx/{file_name}.xlsx", index=False)
     print(f"saved as {file_name}.xlsx in dir: enrichedData")
 
     records = data_frame_reindexed_cols.to_dict(orient="records")
-    with open(f"enrichedData/{imageId}_enrichedData.json", 'w') as f:
+    with open(f"enrichedData/json/{imageId}_enrichedData.json", 'w') as f:
         json.dump(records, f, indent=4)
     print(f"saved as {file_name}_enrichedData.json in dir: enrichedData")
