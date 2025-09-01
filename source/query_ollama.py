@@ -12,6 +12,7 @@ Text:
 {image_to_String}
 
 Respond only with the JSON containing the response.
+Make sure you check all the delimiters are in the right place before responding
 """
     response = requests.post(ollama_URL, json={
         "model": model,

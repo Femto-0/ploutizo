@@ -8,8 +8,8 @@ model = "llama3.2"
 def main():
     # write the name of your image here without the extension. For example: for "imageA.jpg", just write "imageA"
     try:
-        num = 5295
-        finalNum = 5296
+        num = 5293
+        finalNum = 5293
         while num <= finalNum:
             image = f"IMG_{num}"
             imageInfo = pi.extract_text_from_image('images/'+image+'.PNG')
