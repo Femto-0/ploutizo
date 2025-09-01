@@ -68,11 +68,28 @@ def cleanData(processed_data, imageId):
             'last_job',
             'last_job_title'])
     file_name = f"{imageId}"
-    data_frame_reindexed_cols.to_excel(
-        f"enrichedData/xlsx/{file_name}.xlsx", index=False)
-    print(f"saved as {file_name}.xlsx in dir: enrichedData")
+   # data_frame_reindexed_cols.to_excel(
+    #    f"enrichedData/xlsx/{file_name}.xlsx", index=False)
+    # print(f"saved as {file_name}.xlsx in dir: enrichedData")
 
+    # save the data in a json file
     records = data_frame_reindexed_cols.to_dict(orient="records")
     with open(f"enrichedData/json/{imageId}_enrichedData.json", 'w') as f:
         json.dump(records, f, indent=4)
     print(f"saved as {file_name}_enrichedData.json in dir: enrichedData")
+
+    # to save in the same excel file
+    existing_file = "enrichedData/xlsx/enrichedDataExcel.xlsx"
+
+    try:
+        df_existing = pd.read_excel(existing_file, engine="openpyxl")
+
+        df_combined = pd.concat(
+            [df_existing, data_frame_reindexed_cols], ignore_index=True)
+    # if a file does not exist, the new data becomes the combined data
+    except FileNotFoundError:
+        df_combined = data_frame_reindexed_cols
+
+    # save the file
+    df_combined.to_excel(existing_file, index=False, engine="openpyxl")
+    print("successfully saved to the excel file in the enrichedData/xlsx/ directory")
